@@ -6,12 +6,12 @@
 
 body {
   background-image: linear-gradient(
-    to right top,
-    #afafaf,
-    #c2c2c2,
-    #d6d6d6,
-    #eaeaea,
-    #ffffff
+    to top,
+    #ffffff,
+    #eeeeee,
+    #dddddd,
+    #cccccc,
+    #bcbcbc
   );
 }
 
@@ -37,9 +37,9 @@ body {
   display: flex;
   height: 50vh;
   animation-name: slide;
-  animation-duration: 25s;
-  animation-play-state: running;
+  animation-duration: 30s;
   animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 
 .image-top,
