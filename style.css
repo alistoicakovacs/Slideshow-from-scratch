@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right top, #afafaf, #c2c2c2, #d6d6d6, #eaeaea, #ffffff);
+}
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+    padding:0;
+    position: relative; 
+    
+}
+
+.image-container {
+    transition: all 0.5s;
+    position: absolute;
+    
+}
+
+.image-container img {
+    object-fit:contain; 
+}
+
+.container-top,
+.container-bottom{
+    display:flex;
+    height: 50vh;
+}
+
+.image-top,
+.image-bottom {
+    height: -webkit-fill-available;
+}
+
