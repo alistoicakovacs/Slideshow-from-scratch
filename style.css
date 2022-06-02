@@ -44,7 +44,9 @@ body {
 
 .image-top,
 .image-bottom {
-  height: -webkit-fill-available;
+  height: 50vh;
+
+  ;
 }
 
 @keyframes slide {
