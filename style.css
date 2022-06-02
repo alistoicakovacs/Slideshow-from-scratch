@@ -40,6 +40,7 @@ body {
   animation-duration: 30s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
+  animation-delay: 2s;
 }
 
 .image-top,
@@ -50,8 +51,9 @@ body {
 }
 
 @keyframes slide {
+
   0% {
-    transform: translateX(0%);
+    transform:translateX(0%);
   }
   10% {
     transform: translateX(-100%);
